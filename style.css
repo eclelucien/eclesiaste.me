@@ -1,0 +1,147 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: #0a0f0f
+}
+
+.header {}
+
+.header>h1 {
+    color: #40bf80;
+    padding: 15px;
+}
+
+.header>p {
+    padding: 15px;
+}
+
+.header>img {
+    width: 200px;
+    border-radius: 10%;
+    filter: grayscale(1);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-twitter {
+    border-radius: 5%;
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    border-radius: 5%;
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    border-radius: 5%;
+    background: black;
+    color: white;
+}
+
+.fa-instagram {
+    border-radius: 5%;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color: white;
+}
+
+.subtile{
+    font-weight: 700;
+}
+
+img:hover {
+    background-color: #f00;
+    cursor: pointer;
+    filter: grayscale(0);
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+    width: 50%;
+    height: 50%;
+    margin: 50% auto;
+    border-radius: 0.8%;
+    background-color: #40bf80;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.about>h1 {
+    color: #1C1C1C;
+    padding: 10px;
+    font-size: 1.25em;
+}
+.description{
+    font-size: 1.25em;
+}
+.detalhes>h1 {
+    color: #1C1C1C;
+    padding: 1%;
+    font-size: 1.25em;
+}
+
+.detalhes{
+    margin-bottom: 10%;
+}
+
+.location {
+    color: #40bf80;
+    font-weight: 700;
+}
+
+.footer{
+    margin-top: 2%;
+}
+
+p {
+    color: #ffffff;
+    padding: 20px;
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .about {
+        width: 94%;
+        margin: none;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .footer{
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+}
